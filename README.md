@@ -5,7 +5,8 @@ This repository contains MATLAB code for simulating flexible robotic arms with v
 ## Files
 
 ### 1. `fig9.m`
-This script is used to simulate and visualize the deformation of three flexible rods under specified forces and boundary conditions. It applies symbolic equations to model the system's behavior, solving for the rods' deflection and calculating various forces and moments acting on the system.![fig9](image/fig9.png)
+This script is used to simulate and visualize the deformation of three flexible rods under specified forces and boundary conditions. It applies symbolic equations to model the system's behavior, solving for the rods' deflection and calculating various forces and moments acting on the system.[View the PDF](pdf/last1.pdf)
+
 
 
 - **Parameters**: Tolerance for convergence, maximum iterations, Young's modulus, and geometry of the rods.
