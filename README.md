@@ -13,13 +13,15 @@ This script is used to simulate and visualize the deformation of three flexible 
 - **Key Outputs**: Deflection of rods, forces, and moments at different stages of deformation.
 
 ### 2. `fig11.m`
-This script builds on `fig9.m` but incorporates additional complexities, such as symbolic force components and improved visualization techniques. It visualizes the deformation of the rods for various values of a parameter (`alpha`) and uses Newton's method to iteratively solve for the displacement.
+This script builds on `fig9.m` but incorporates additional complexities, such as symbolic force components and improved visualization techniques. It visualizes the deformation of the rods for various values of a parameter (`alpha`) and uses Newton's method to iteratively solve for the displacement.[View the PDF](pdf/last2.pdf)
+
 
 - **Parameters**: Includes additional symbolic components for forces and moments.
 - **Key Outputs**: Detailed plots of rod deformation and the forces at the ends of each rod.
 
 ### 3. `fig12.m`
 This file further extends the previous models by adding more variables and improving the equation system to represent real-world robotic arm setups. The main difference is the inclusion of more rigid components and complex boundary conditions.
+[View the PDF](pdf/last3.pdf)
 
 - **Parameters**: Similar to the previous files, but adds more variables related to the force and moment at each joint.
 - **Key Outputs**: Includes detailed results for multiple configurations and force distributions.
